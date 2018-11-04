@@ -80,8 +80,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	libHWCUtils \
 	gralloc.sc8830 \
-	hwcomposer.sc8830 \
-	sprd_gsp.sc8830 \
 	libmemoryheapion \
 	libion_sprd
 
@@ -106,7 +104,7 @@ PRODUCT_PACKAGES += \
 	set_mac.rc \
 	smd_symlink.rc \
 	swap.rc \
-	wpa_supplicant.rc \
+	wpa_supplicant.rc
 
 # Rootdir files
 PRODUCT_PACKAGES += \
