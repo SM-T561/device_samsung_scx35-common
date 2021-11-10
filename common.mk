@@ -83,8 +83,10 @@ PRODUCT_PACKAGES += \
 	libmemoryheapion \
 	libion_sprd
 
-# System init.rc files
+# Rootdir
 PRODUCT_PACKAGES += \
+	init.board.rc \
+	init.wifi.rc \
 	at_distributor.rc \
 	chown_service.rc \
 	data.rc \
@@ -105,11 +107,6 @@ PRODUCT_PACKAGES += \
 	smd_symlink.rc \
 	swap.rc \
 	wpa_supplicant.rc
-
-# Rootdir files
-PRODUCT_PACKAGES += \
-	init.board.rc \
-	init.wifi.rc
 
 # Packages
 PRODUCT_PACKAGES += \
