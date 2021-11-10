@@ -72,9 +72,6 @@ TARGET_HAS_BACKLIT_KEYS := false
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_sec
 
-# Board specific features
-#TARGET_HAS_LEGACY_CAMERA_HAL1 := true
-
 # GPS
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/scx35-common/include
 
